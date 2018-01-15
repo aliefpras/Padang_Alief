@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Restaurant</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css" media="screen" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style-portfolio.css">
+        <link rel="stylesheet" href="css/picto-foundry-food.css" />
+        <link rel="stylesheet" href="css/jquery-ui.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link rel="icon" href="favicon-1.ico" type="image/x-icon">
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="row">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand">Restoran Padang</a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav main-nav  clear navbar-right ">
+                            <li><a class="navactive color_animation" href="#top">BERANDA</a></li>
+                            <li><a class="color_animation" href="#story">TENTANG</a></li>
+                            <li><a class="color_animation" href="#pricing">HARGA</a></li>
+                            <li><a class="color_animation" href="#beer">MINUMAN</a></li>
+                            <li><a class="color_animation" href="#bread">MAKANAN</a></li>
+                            <li><a class="color_animation" href="#featured">FITUR</a></li>
+                            <li><a class="color_animation" href="#reservation">PELAYANAN</a></li>
+                            <li><a class="color_animation" href="#contact">KONTAK</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div>
+            </div><!-- /.container-fluid -->
+        </nav>
+         
+        <div id="top" class="starter_container bg">
+            <div class="follow_container">
+                <div class="col-md-6 col-md-offset-3">
+                    <h2 class="top-title"> Padang Alief</h2>
+                    <h2 class="white second-title">" Terbaik di Dunia "</h2>
+                    <hr>
+                </div>
+            </div>
+        </div>
+
+        <!-- ============ About Us ============= -->
+
+        <section id="story" class="description_content">
+            <div class="text-content container">
+                <div class="col-md-6">
+                    <h1>Tentang Kami</h1>
+                    <div class="fa fa-cutlery fa-2x"></div>
+                    <p class="desc-text">Restoran ini adalah restoran yang menyajikan berbagai masakan dari Padang. Masakan Padang sudah sangat terkenal di penjuru Indonesia terutama rendang.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="img-section">
+                       <img src="images/kabob.jpg" width="250" height="220">
+                       <img src="images/limes.jpg" width="250" height="220">
+                       <div class="img-section-space"></div>
+                       <img src="images/radish.jpg"  width="250" height="220">
+                       <img src="images/corn.jpg"  width="250" height="220">
+                   </div>
+                </div>
+            </div>
+        </section>
+
+
+       <!-- ============ Pricing  ============= -->
+
+
+        <section id ="pricing" class="description_content">
+             <div class="pricing background_content">
+                <h1><span>Harga</span> terjangkau</h1>
+             </div>
+            <div class="text-content container"> 
+                <div class="container">
+                    <div class="row">
+                        <div id="w">
+                            <ul id="filter-list" class="clearfix">
+                                <li class="filter" data-filter="all">Semua</li>
+                                <li class="filter" data-filter="breakfast">Makan Pagi</li>
+                                <li class="filter" data-filter="special">Spesial</li>
+                                <li class="filter" data-filter="desert">Makan Siang</li>
+                                <li class="filter" data-filter="dinner">Makan Malam</li>
+                            </ul><!-- @end #filter-list -->    
+                            <ul id="portfolio">
+                                <li class="item breakfast"><img src="images/food_icon01.jpg" alt="Food" >
+                                    <h2 class="white">Rp 20.000</h2>
+                                </li>
+
+                                <li class="item dinner special"><img src="images/food_icon02.jpg" alt="Food" >
+                                    <h2 class="white">Rp 15.000</h2>
+                                </li>
+                                <li class="item dinner breakfast"><img src="images/food_icon03.jpg" alt="Food" >
+                                    <h2 class="white">Rp 30.000</h2>
+                                </li>
+                                <li class="item special"><img src="images/food_icon04.jpg" alt="Food" >
+                                    <h2 class="white">Rp 50.000</h2>
+                                </li>
+                                <li class="item dinner"><img src="images/food_icon05.jpg" alt="Food" >
+                                    <h2 class="white">Rp 18.000</h2>
+                                </li>
+                                <li class="item special"><img src="images/food_icon06.jpg" alt="Food" >
+                                    <h2 class="white">Rp 25000</h2>
+                                </li>
+                                <li class="item desert"><img src="images/food_icon07.jpg" alt="Food" >
+                                    <h2 class="white">Rp 32000</h2>
+                                </li>
+                                <li class="item desert breakfast"><img src="images/food_icon08.jpg" alt="Food" >
+                                    <h2 class="white">Rp 40000</h2>
+                                </li>
+                            </ul><!-- @end #portfolio -->
+                        </div><!-- @end #w -->
+                    </div>
+                </div>
+            </div>  
+        </section>
+
+
+        <!-- ============ Our Beer  ============= -->
+
+
+        <section id ="beer" class="description_content">
+            <div  class="beer background_content">
+                <h1>Tempat <span>Terbaik</span> Untuk Makan</h1>
+            </div>
+            <div class="text-content container"> 
+                <div class="col-md-5">
+                   <div class="img-section">
+                       <img src="images/beer_spec.jpg" width="100%">
+                   </div>
+                </div>
+                <br>
+                <div class="col-md-6 col-md-offset-1">
+                    <h1>Minuman Kami</h1>
+                    <div class="icon-beer fa-2x"></div>
+                    <p class="desc-text">Di restoran kami disediakan berbagai minuman yang akan membuat dahaga Anda menjadi hilang serta kesegaran yang tidak didapatkan dari restoran yang lainnya.</p>
+                </div>
+            </div>
+        </section>
+
+
+       <!-- ============ Our Bread  ============= -->
+
+
+        <section id="bread" class=" description_content">
+            <div  class="bread background_content">
+                <h1><span>Menu</span> Makanan Kami</h1>
+            </div>
+            <div class="text-content container"> 
+                <div class="col-md-6">
+                    <h1>Rendang</h1>
+                    <div class=""></div>
+                    <p class="desc-text">Kami sangat menyukai rendang dikarenakan rendang adalah ikon masakan padang. Kami ingin rendang yang disajikan benar-benar menggunakan daging kualitas terbaik.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/bread1.jpg" width="260" alt="Bread">
+                    <img src="images/bread2.jpg" width="260" alt="Bread">
+                </div>
+            </div>
+        </section>
+
+Featured
+        
+        <!-- ============  Dish  ============= -->
+
+        <section id="featured" class="description_content">
+            <div  class="featured background_content">
+                <h1><span>Menu</span> Hidangan Utama Kami</h1>
+            </div>
+            <div class="text-content container"> 
+                <div class="col-md-6">
+                    <h1>Lihatlah menu kami</h1>
+                    <div class=""></div>
+                    <p class="desc-text">Setiap makanan yang disajikan menggunakan bahan-bahan berkualitas tinggi serta dengan kebersihan yang dijaga.</p>
+                </div>
+                <div class="col-md-6">
+                    <ul class="image_box_story2">
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img src="images/slider1.jpg"  alt="...">
+                                    <div class="carousel-caption">
+                                        
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="images/slider2.jpg" alt="...">
+                                    <div class="carousel-caption">
+                                        
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="images/slider3.JPG" alt="...">
+                                    <div class="carousel-caption">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ Reservation  ============= -->
+
+        <section  id="reservation"  class="description_content">
+            <div class="featured background_content">
+                <h1>Memboking Meja Makan!</h1>
+            </div>
+            <div class="text-content container"> 
+                <div class="inner contact">
+                    <!-- Form Area -->
+                    <div class="contact-form">
+                        <!-- Form -->
+                        <form id="contact-us" method="post" action="reserve.php">
+                            <!-- Left Inputs -->
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-8 col-md-6 col-xs-12">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6 col-xs-6">
+                                                <!-- Name -->
+                                                <input type="text" name="first_name" id="first_name" required="required" class="form" placeholder="Nama Depan" />
+                                                <input type="text" name="last_name" id="last_name" required="required" class="form" placeholder="Nama Belakang" />
+                                                <input type="text" name="state" id="state" required="required" class="form" placeholder="Alamat" />
+                                                <input type="text" name="datepicker" id="datepicker" required="required" class="form" placeholder="Tanggal Pemesanan" />
+                                            </div>
+
+                                            <div class="col-lg-6 col-md-6 col-xs-6">
+                                                <!-- Name -->
+                                                <input type="text" name="phone" id="phone" required="required" class="form" placeholder="No Hp" />
+                                                <input type="text" name="guest" id="guest" required="required" class="form" placeholder="No Tamu" />
+                                                <input type="email" name="email" id="email" required="required" class="form" placeholder="Email" />
+                                                <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Keterangan" />
+                                            </div>
+
+                                            <div class="col-xs-6 ">
+                                                <!-- Send Button -->
+                                                <button type="submit" id="submit" name="submit" class="text-center form-btn form-btn" >Pesan</button> 
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-lg-4 col-md-6 col-xs-12">
+                                        <!-- Message -->
+                                        <div class="right-text">
+                                            <h2>Jam</h2><hr>
+                                            <p>Senin - Selasa : 07:30  - 11:30 </p>
+                                            <p>Senin - Selasa : 13:00  - 17:00 </p>
+                                            <p>Rabu - Kamis   : 07:00  - 10:00 </p>
+                                            <p>Rabu - Kamis   : 12:30  - 18:00 </p>
+                                            <p>Jum'at - Sabtu : 07:30  - 23:00 </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Clear -->
+                            <div class="clear"></div>
+                        </form>
+                    </div><!-- End Contact Form Area -->
+                </div><!-- End Inner -->
+            </div>
+        </section>
+
+        <!-- ============ Social Section  ============= -->
+      
+        <section class="social_connect">
+            <div class="text-content container"> 
+                <div class="col-md-6">
+                    <span class="social_heading">IKUTI</span>
+                    <ul class="social_icons">
+                        <li><a class="icon-twitter color_animation" href="https://twitter.com/login?lang=id" target="_blank"></a></li>
+                        
+                        <li><a class="icon-mail color_animation" href="https://accounts.google.com/ServiceLogin/signinchooser?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin"></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <span class="social_heading">ATAU TELPON</span>
+                    <span class="social_info"><a class="color_animation" href="tel:883-335-6524">(024) 883-335-6524</a></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ Contact Section  ============= -->
+
+        <section id="contact">
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.664063989472!2d91.8316103150038!3d24.909437984030877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37505558dd0be6a1%3A0x65c7e47c94b6dc45!2sTechnext!5e0!3m2!1sen!2sbd!4v1444461079802" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="inner contact">
+                            <!-- Form Area -->
+                            <div class="contact-form">
+                                <!-- Form -->
+                                <form id="contact-us" method="post" action="//http://aliefpras007@gmail.com">
+                                    <!-- Left Inputs -->
+                                    <div class="col-md-6 ">
+                                        <!-- Name -->
+                                        <input type="text" name="name" id="name" required="required" class="form" placeholder="Name" />
+                                        <!-- Email -->
+                                        <input type="email" name="email" id="email" required="required" class="form" placeholder="Email" />
+                                        <!-- Subject -->
+                                        <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Subject" />
+                                    </div><!-- End Left Inputs -->
+                                    <!-- Right Inputs -->
+                                    <div class="col-md-6">
+                                        <!-- Message -->
+                                        <textarea name="message" id="message" class="form textarea"  placeholder="Message"></textarea>
+                                    </div><!-- End Right Inputs -->
+                                    <!-- Bottom Submit -->
+                                    <div class="relative fullwidth col-xs-12">
+                                        <!-- Send Button -->
+                                        <button type="submit" id="submit" name="submit" class="form-btn">Kirim Pesan</button> 
+                                    </div><!-- End Bottom Submit -->
+                                    <!-- Clear -->
+                                    <div class="clear"></div>
+                                </form>
+                            </div><!-- End Contact Form Area -->
+                        </div><!-- End Inner -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ Footer Section  ============= -->
+
+        <footer class="sub_footer">
+            <div class="container">
+                <div class="col-md-4"><p class="sub-footer-text text-center">&copy; Restoran 2018 <a href="https://themewagon.com/">Padang Alief</a></p></div>
+                <div class="col-md-4"><p class="sub-footer-text text-center">Kembali ke <a href="#top">ATAS</a></p>
+                </div>
+            </div>
+        </footer>
+
+
+        <script type="text/javascript" src="js/jquery-1.10.2.min.js"> </script>
+        <script type="text/javascript" src="js/bootstrap.min.js" ></script>
+        <script type="text/javascript" src="js/jquery-1.10.2.js"></script>     
+        <script type="text/javascript" src="js/jquery.mixitup.min.js" ></script>
+        <script type="text/javascript" src="js/main.js" ></script>
+
+    </body>
+</html>
